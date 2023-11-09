@@ -1,0 +1,70 @@
+/*  SELECTOR GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* INVESTIGAR */
+}
+
+/* SELECCTOR DE ETIQUETA */
+header {
+    padding: 10px;
+    /* PADDING A TODOS LOS LADOS */
+    /* padding-bottom: 50px; */
+    text-align: center;
+    background-color: red;
+    /* color: rgb(51, 41, 41); */
+    color: '#56CF3E';
+    height: 15vh;
+}
+
+aside {
+    width: 30%;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: violet;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    width: 500px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* class */
+
+.container { 
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+footer {
+    background-color: coral;
+    height: 15vh;
+}
+
+footer section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* id */
+
+/* #container {
+
+} */
+

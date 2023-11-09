@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es un sitio web para aprender a programar">
+    <meta name="keywords" content="JavaScript, PHP, HTML, APRENDIZAJE">
+    <title>PREBA</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- <p>
+        Para abrir este archivo necesitarás el programa <strong>Manz9000</strong>.
+        <small>Es necesario 10GB disponibles en disco.</small>
+    </p> -->
+
+    <header style="border: 1px solid black;">
+        <h1>ToDO</h1>
+    </header>
+
+    <div class="container">
+        <aside style="border: 1px solid black;">
+            <nav>
+                <!-- a -> Enlace -->
+                <a href="" target="">Crear</a>
+                <a href="" target="">Listado</a>
+                <a href="" target="">Nosotros</a>
+            </nav>
+        </aside>
+        <main style="border: 1px solid black;">
+            <section>
+                <form action="servidor/registrar.php" method="POST">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Ingresa tu correo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                    <label for="titulo">Titulo</label>
+                    <input type="text" name="titulo" id="titulo" placeholder="Ingresa el titulo de tu tarea">
+                    <label for="descripcion">Descripcion</label>
+                    <textarea name="descripcion" id="descripcion"
+                        placeholder="Ingresa la descripcion de tu tarea"></textarea>
+                    <label for="prioridad">Prioridad</label>
+                    <select name="prioridad" id="prioridad">
+                        <option value="ALTA">ALTA</option>
+                        <option value="MEDIA">MEDIA</option>
+                        <option value="BAJA">BAJA</option>
+                    </select>
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña">
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+    </div>
+    <footer style="border: 1px solid black;">
+        <section>
+            <div>
+                <img src="" alt="">
+                <p>WhatsApp</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>Instagram</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>Facebook</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src=""></script>
+</body>
+
+</html>
